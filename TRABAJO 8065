@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo FAGOR 8065</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: white;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .section-title {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            color: #4CAF50;
+        }
+        .table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .table th, .table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Trabajo FAGOR 8065</h1>
+        <p>Por [Tu Nombre]</p>
+    </header>
+    <nav>
+        <a href="#descripcion">Descripción</a>
+        <a href="#operaciones">Operaciones</a>
+        <a href="#parametros">Parámetros Tecnológicos</a>
+        <a href="#bibliografia">Bibliografía</a>
+    </nav>
+    <section id="descripcion">
+        <h2 class="section-title">Descripción del Trabajo</h2>
+        <p>Este trabajo aborda los ejercicios realizados con el FAGOR 8065, comparándolo con el FAGOR 8055, identificando pros y contras, y ofreciendo una perspectiva personal sobre su programación.</p>
+    </section>
+    <section id="operaciones">
+        <h2 class="section-title">Desarrollo de las Operaciones</h2>
+        <p>En este apartado se presentan los ejercicios realizados con anotaciones y capturas de pantalla:</p>
+        <ul>
+            <li>Ejercicio 1: [Descripción breve]</li>
+            <li>Ejercicio 2: [Descripción breve]</li>
+            <li>...</li>
+        </ul>
+    </section>
+    <section id="parametros">
+        <h2 class="section-title">Parámetros Tecnológicos</h2>
+        <p>Aquí se explican los parámetros tecnológicos empleados, incluyendo fórmulas y cálculos:</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Parámetro</th>
+                    <th>Descripción</th>
+                    <th>Unidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>n</td>
+                    <td>Revoluciones por minuto</td>
+                    <td>r.p.m</td>
+                </tr>
+                <tr>
+                    <td>Vf</td>
+                    <td>Velocidad de avance</td>
+                    <td>mm/min</td>
+                </tr>
+                <tr>
+                    <td>T</td>
+                    <td>Tiempo por operación</td>
+                    <td>min</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="bibliografia">
+        <h2 class="section-title">Bibliografía / Webgrafía</h2>
+        <p>Ejemplo de fuente: Sandvik Coromant - <a href="https://www.sandvik.coromant.com/es-es" target="_blank">https://www.sandvik.coromant.com/es-es</a></p>
+    </section>
+    <footer>
+        <p>Trabajo realizado para el módulo de mecanizado CNC</p>
+    </footer>
+</body>
+</html>
